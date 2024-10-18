@@ -42,6 +42,6 @@
 
 ## Onde me encontrar
 
-[![Linkedin](https://img.shields.io/badge/-Kauan-Pardini-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/kauan-pardini-augusto-7b132b210)](https://br.linkedin.com/in/kauan-pardini-augusto-7b132b210?)
+[![Linkedin](https://img.shields.io/badge/-Kauan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/kauan-pardini-augusto-7b132b210)](https://br.linkedin.com/in/kauan-pardini-augusto-7b132b210?)
 [![Gmail Badge](https://img.shields.io/badge/-kauanpardini@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kauanpardini)](mailto:kauanpardini@gmail.com)
 [![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/j4kedi)
