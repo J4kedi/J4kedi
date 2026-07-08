@@ -28,8 +28,6 @@ Meu foco atual esta em **Next.js**, **TypeScript**, **Java/Spring Boot**, mensag
 - [iFome](https://github.com/J4kedi/Ifome) - aplicacao web para estudo de experiencia de produto, listagem, navegacao e organizacao visual de um fluxo de pedidos.
 - [API-Rest-Java](https://github.com/J4kedi/API-Rest-Java) - API REST com Java e Spring Boot 3, explorando camadas, persistencia, validacao e documentacao de endpoints.
 - [ConstructionCon Marketplace](https://github.com/J4kedi/constructioncon-marketplace-bff) - PoC de marketplace com BFF, servicos separados, orquestracao com Docker e estudo de evolucao para AWS.
-- [Mini Help Desk](https://github.com/J4kedi/Mini-Help-Desk) - fluxo de atendimento e suporte com foco em organizacao de demandas.
-- [Pizzaria Backend](https://github.com/J4kedi/pizzaria-backend) - backend para dominio de pedidos, produtos e regras de negocio.
 
 ## Estudos academicos e laboratorios
 
@@ -37,7 +35,6 @@ Meu foco atual esta em **Next.js**, **TypeScript**, **Java/Spring Boot**, mensag
 - [tde_performance](https://github.com/J4kedi/tde_performance) - estudos de performance e analise de algoritmos.
 - [TDE-PBL-Tabela-Hash](https://github.com/J4kedi/TDE-PBL-Tabela-Hash) - estrutura de dados aplicada.
 - [Codigo-Morse-AVL-](https://github.com/J4kedi/Codigo-Morse-AVL-) - arvore AVL e manipulacao de estruturas de dados.
-- [PJBL-Verificacao-Validacao](https://github.com/J4kedi/PJBL-Verificacao-Validacao) - praticas de verificacao e validacao de software.
 - [design-de-software](https://github.com/J4kedi/design-de-software) - exercicios e registros de design de software.
 
 ## Como trabalho
