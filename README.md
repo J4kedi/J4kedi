@@ -1,47 +1,61 @@
-![](https://komarev.com/ghpvc/?username=j4kedi&color=006bed)
+# Kauan Pardini Augusto
 
-## Sobre mim
+Desenvolvedor junior na **Chipset Tecnologia**, atuando com produto web, integracoes e sustentacao de aplicacoes em producao.
 
-- 🤔 Explorando novas tecnologias e desenvolvendo soluções de software.
-- 🎓 Estudando Engenharia de Software na PUCPR.
-- 🌱 Aprendendo mais sobre SpringBootWeb.
+Meu foco atual esta em **Next.js**, **TypeScript**, **Java/Spring Boot**, mensageria, modelagem de dados e integracoes reais com WhatsApp.
 
-## Minhas Skills
+## Atuacao atual
 
-**Aplicações e dados**
+- Implementacao de features com Next.js + TypeScript.
+- Fluxos assincronos com RabbitMQ, filas e eventos.
+- Apoio em modelagem de banco de dados e organizacao de regras de negocio.
+- Aplicacao de design patterns conforme a necessidade do produto.
+- Suporte e integracao com a API da Meta para WhatsApp.
+- Implantacao e operacao de VPS com Evolution API em ambiente de producao real.
+- Investigacao de problemas, manutencao evolutiva e melhoria de codigo em sistemas existentes.
 
-![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-![Jest](https://img.shields.io/badge/-Jest-333333?style=flat&logo=jest)
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+## Stack
 
-**Utilidades**
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS, HTML, CSS.
+- **Backend e APIs:** Java, Spring Boot, Node.js, APIs REST.
+- **Mensageria e integracoes:** RabbitMQ, filas, Meta WhatsApp API, Evolution API.
+- **Dados:** PostgreSQL, MySQL, SQL, modelagem relacional.
+- **Infra e operacao:** Docker, VPS Linux, GitHub, AWS em estudo.
+- **Arquitetura em evolucao:** BFF, microservicos, design patterns, documentacao e testes.
 
-![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia)
-![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
+## Projetos em destaque
 
-**DevOps**
+- [iFome](https://github.com/J4kedi/Ifome) - aplicacao web para estudo de experiencia de produto, listagem, navegacao e organizacao visual de um fluxo de pedidos.
+- [API-Rest-Java](https://github.com/J4kedi/API-Rest-Java) - API REST com Java e Spring Boot 3, explorando camadas, persistencia, validacao e documentacao de endpoints.
+- [ConstructionCon Marketplace](https://github.com/J4kedi/constructioncon-marketplace-bff) - PoC de marketplace com BFF, servicos separados, orquestracao com Docker e estudo de evolucao para AWS.
+- [Mini Help Desk](https://github.com/J4kedi/Mini-Help-Desk) - fluxo de atendimento e suporte com foco em organizacao de demandas.
+- [Pizzaria Backend](https://github.com/J4kedi/pizzaria-backend) - backend para dominio de pedidos, produtos e regras de negocio.
 
-![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+## Estudos academicos e laboratorios
 
-**Ferramentas de desenvolvimento**
+- [CalculadoraTDE](https://github.com/J4kedi/CalculadoraTDE) - regras de calculo, organizacao de codigo e validacao de resultado.
+- [tde_performance](https://github.com/J4kedi/tde_performance) - estudos de performance e analise de algoritmos.
+- [TDE-PBL-Tabela-Hash](https://github.com/J4kedi/TDE-PBL-Tabela-Hash) - estrutura de dados aplicada.
+- [Codigo-Morse-AVL-](https://github.com/J4kedi/Codigo-Morse-AVL-) - arvore AVL e manipulacao de estruturas de dados.
+- [PJBL-Verificacao-Validacao](https://github.com/J4kedi/PJBL-Verificacao-Validacao) - praticas de verificacao e validacao de software.
+- [design-de-software](https://github.com/J4kedi/design-de-software) - exercicios e registros de design de software.
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![Eclipse](https://img.shields.io/badge/-Eclipse-333333?style=flat&logo=eclipse-ide&logoColor=2C2255)
-![Trello](https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello&logoColor=007ACC)
-![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
+## Como trabalho
 
-<br/>
+- Entendo a regra de negocio antes de implementar.
+- Prefiro separar responsabilidades e manter codigo simples de evoluir.
+- Documento decisoes que impactam setup, deploy ou manutencao.
+- Levo duvidas cedo quando a decisao envolve arquitetura, seguranca, dados ou producao.
 
-<a href="https://github.com/j4kedi" title="Perfil J4kedi">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=j4kedi&theme=dracula&show_icons=true" />
-</a>
+## Foco de evolucao
 
-## Onde me encontrar
+- Aprofundar Java/Spring Boot para APIs mais robustas.
+- Melhorar arquitetura com BFF, microservicos e comunicacao assincrona.
+- Consolidar base em modelagem de banco, design patterns e deploy de aplicacoes.
+- Evoluir integracoes com WhatsApp, automacoes e operacao de ambientes reais.
 
-[![Linkedin](https://img.shields.io/badge/-Kauan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/kauan-pardini-augusto-7b132b210)](https://br.linkedin.com/in/kauan-pardini-augusto-7b132b210?)
-[![Gmail Badge](https://img.shields.io/badge/-kauanpardini@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kauanpardini)](mailto:kauanpardini@gmail.com)
-[![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/j4kedi)
+## Contato
+
+- Email: [kauanpardini@gmail.com](mailto:kauanpardini@gmail.com)
+- LinkedIn: [Kauan Pardini Augusto](https://br.linkedin.com/in/kauan-pardini-augusto-7b132b210)
+- GitHub: [@J4kedi](https://github.com/J4kedi)
