@@ -1,7 +1,7 @@
 # Kauan Pardini Augusto
 
 Software engineer, backend and full stack. I build and operate production systems, and I measure what changes.
-Curitiba, Brazil · final-year Software Engineering student at PUCPR · Java teaching assistant.
+Curitiba, Brazil · final-year Software Engineering student at PUCPR.
 
 ## Currently
 
