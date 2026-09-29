@@ -5,12 +5,15 @@ Curitiba, Brazil · final-year Software Engineering student at PUCPR · Java tea
 
 ## Currently
 
-**Beauty Max Tecnologia**, Software Developer (Apr 2026 – present). Multi-tenant SaaS for beauty businesses: Next.js, PostgreSQL, Redis, RabbitMQ.
+**Beauty Max Tecnologia**, Software Developer (Apr 2026 – present). Multi-tenant SaaS for beauty businesses (Next.js, PostgreSQL, Redis, RabbitMQ) and the group's internal support platform (GLPI, NestJS, MariaDB).
 
 - Designed the blue/green CI/CD the team ships with: 211 production releases in 11 weeks, a median of 20 minutes from merge to production, previous slot kept for rollback.
 - Built invoice reconciliation against the payment provider: matches charges by checkout metadata, runs dry by default, is safe to re-run, and sends anything it cannot correlate to human review instead of guessing by amount.
 - Made per-operator cash registers safe under concurrent use (row lock on opening, unique index returning 409 instead of 500).
 - Built WhatsApp inbound processing (webhook → RabbitMQ → worker) with message-ID dedupe in Redis plus a unique index, without dropping retries.
+- Migrated the help desk to containerized GLPI 11 on MariaDB; a full rehearsal with identical row counts measured a ~4-minute cutover window against a 30–45 minute estimate.
+- Built a WhatsApp-to-ticket service (NestJS, Kysely, transactional outbox, BullMQ) and PHP plugins that open expiring remote-access sessions from inside a ticket.
+- Fixed silent edit loss in a self-hosted Docmost fork (Yjs collaboration): dropped frames now resync in about a second.
 
 ## ConstruXion, my own SaaS project
 
@@ -38,7 +41,7 @@ Decisions I can walk through in an interview:
 
 ## Stack
 
-TypeScript, Node.js, NestJS, Next.js · Java 21, Spring Boot 3 · PostgreSQL, Redis, RabbitMQ, BullMQ · Docker, GitHub Actions, Nginx, Linux, Cloudflare Workers · Jest, Playwright · Prometheus, Grafana, Loki, Sentry
+TypeScript, Node.js, NestJS, Next.js · Java 21, Spring Boot 3 · PHP · PostgreSQL, MariaDB/MySQL, Redis, RabbitMQ, BullMQ · Docker, GitHub Actions, Nginx, Linux, Cloudflare Workers · Jest, Playwright · Prometheus, Grafana, Loki, Sentry
 
 ## Contact
 
