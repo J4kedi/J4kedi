@@ -17,10 +17,11 @@ Curitiba, Brazil · final-year Software Engineering student at PUCPR · Java tea
 
 ## ConstruXion, my own SaaS project
 
-A construction-management SaaS in production at [construxion.com.br](https://www.construxion.com.br): NestJS, Next.js, PostgreSQL, Redis, RabbitMQ, self-hosted on Linux behind Cloudflare. The code is private, so here are the results, each measured before and after the change.
+A construction-management SaaS in production at [construxion.com.br](https://www.construxion.com.br). It is a modular monolith by design (NestJS + Next.js, 35 API modules) with shared-schema tenant isolation, run as 32 Docker Compose services across production, staging and observability on a self-hosted VM behind Cloudflare. I migrated it off Fly.io and kept Fly as a standby behind a Cloudflare Worker failover. The code is private, so here are the results, each measured before and after the change.
 
 | Change | Before | After | How |
 | --- | ---: | ---: | --- |
+| Dashboard p99 at 12 req/s | 3.3 s | 210 ms | Released the SSR payload right after render; the web tier had been restarting on heap under load |
 | HTTP response for a 1,000-row import | 7.0 s | ~3 ms | Commit moved to a BullMQ worker with idempotent job IDs, status polling and a dead-letter queue |
 | First request after an idle period | 110 ms | 20 ms | Kept the Postgres pool warm; the driver's 10 s idle timeout was draining it |
 | Cached page at the edge | ~60 ms | 28–41 ms | Edge cache in a Cloudflare Worker; normalized the Next.js `Vary` header that silently disabled caching |
@@ -35,13 +36,21 @@ Decisions I can walk through in an interview:
 ## Projects
 
 - [API-Rest-Java](https://github.com/J4kedi/API-Rest-Java): REST API in Java 21 and Spring Boot 3 with Spring Security/JWT, JPA, Flyway, OpenAPI and tests. Course-based study project.
-- [ConstructionCon Marketplace](https://github.com/J4kedi/constructioncon-marketplace-bff): architecture proof of concept, a monolith evolving into a BFF plus separate [orders (Java)](https://github.com/J4kedi/constructioncon-marketplace-orders-svc) and catalog (TypeScript) services, with a microfrontend and Docker Compose.
+- [ConstructionCon](https://github.com/J4kedi/constructioncon-marketplace-bff): from a multi-tenant monolith to a microservices proof of concept: Node.js catalog on MongoDB, [Spring Boot orders on SQL Server](https://github.com/J4kedi/constructioncon-marketplace-orders-svc), a BFF aggregator, a Next.js microfrontend and a serverless quote function on Azure Functions, orchestrated with Docker Compose and built by GitHub Actions.
 - [Direct-mapped cache simulator](https://github.com/J4kedi/t1a-cache-mapeamento-direto-python): write-back and write-allocate, with unit tests and a step-by-step Tkinter view.
 - [Process precedence graph](https://github.com/J4kedi/tde_performance): Python multiprocessing synchronized with semaphores, including a deadlock demonstration.
 
 ## Stack
 
-TypeScript, Node.js, NestJS, Next.js · Java 21, Spring Boot 3 · PHP · PostgreSQL, MariaDB/MySQL, Redis, RabbitMQ, BullMQ · Docker, GitHub Actions, Nginx, Linux, Cloudflare Workers · Jest, Playwright · Prometheus, Grafana, Loki, Sentry
+**Languages and frameworks:** TypeScript, Node.js, NestJS, Next.js · Java 21, Spring Boot 3 · PHP
+
+**Data and messaging:** PostgreSQL, MariaDB/MySQL, SQL Server, MongoDB · Redis, RabbitMQ, BullMQ · transactional outbox, expand/contract migrations
+
+**Architecture:** modular monolith, microservices with BFF and microfrontend, schema-per-tenant and shared-schema multi-tenancy, queues with DLQ, idempotency, blue/green, edge failover
+
+**Cloud and containers:** Docker and Compose, GHCR, GitHub Actions (hosted and self-hosted), Cloudflare (Workers, KV, R2, Tunnel), Fly.io, Neon, Linux, Nginx, Apache
+
+**Quality and observability:** Jest, Playwright, k6, Prometheus, Grafana, Loki, Sentry/GlitchTip
 
 ## Contact
 
