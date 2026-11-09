@@ -4,7 +4,7 @@ Back-end and full stack developer in Curitiba, Brazil, finishing Software Engine
 
 ## Work
 
-**Beauty Max Tecnologia**, Software Developer, since April 2026. A multi-tenant SaaS for beauty businesses and the group's internal support platform.
+**Beauty Max Tecnologia**, Software Developer, since June 2026. A multi-tenant SaaS for beauty businesses and the group's internal support platform.
 
 - The blue/green pipeline that replaced the in-place PM2 deploy (staging, migration dry run, health checks, rollback slot) carried 211 production releases in 11 weeks.
 - I built the WhatsApp assistant that answers and books appointments with an LLM. It only got write access after passing an 18-case offline eval, and a person can take over or switch it off at any time.
