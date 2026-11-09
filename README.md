@@ -18,8 +18,6 @@ I'm looking for a junior or mid-level back-end or full stack role, remote or in 
 
 ## Personal project: a construction management SaaS
 
-![Planning and control screen of the construction SaaS, with demo data](images/construxion-controle.jpg)
-
 I build and run a construction management SaaS in production. It's a modular monolith (NestJS and Next.js, 35 API modules) with shared-schema multi-tenancy, running as 32 Docker Compose services (production, staging and monitoring) on a VM I manage, behind Cloudflare. I moved it off Fly.io and kept Fly as a standby behind a circuit breaker in a Cloudflare Worker. The code is private, so these are the numbers I measured before and after each change:
 
 | Change | Before | After | How |
